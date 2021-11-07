@@ -1,1 +1,1 @@
-# Learn Git while building a Gihhub pages personal online Curriculum Vitae 
+# Learn Git while building a Github pages personal online Curriculum Vitae 
