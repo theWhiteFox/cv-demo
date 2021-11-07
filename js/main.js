@@ -1,14 +1,6 @@
-// This is what changes body from hidden
-(function($) {
+import '../css/style.css'
 
-  $(document.body).fadeIn(1200);
-
-})(jQuery);
-$(document).ready(function() {
-   
-    $('a[href=#top]').click(function(){
-        $('html, body').animate({scrollTop:0}, 'slow');
-        return false;
-    });
-
-});
+document.querySelector('#app').innerHTML = `
+  <h1>Hello Vite!</h1>
+  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+`
