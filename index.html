@@ -7,99 +7,95 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <link
-      href="css/tailwind.min.css"
-      rel="stylesheet"
-    />
+    <link href="css/tailwind.min.css" rel="stylesheet" />
   </head>
 
-  <body>
-    <section>
-      <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
-        <img
-          class="
-            w-32
-            h-32
-            md:w-48 md:h-auto md:rounded-none
-            rounded-full
-            mx-auto
-          "
-          src="img/Tonysoprano.jpg"
-          alt=""
-          width="384"
-          height="512"
-        />
-        <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
-          <blockquote>
-            <p class="text-lg font-semibold">
-              "It's good to be in something from the ground floor. I came too
-              late for that and I know. But lately, I'm getting the feeling that
-              I came in at the end. The best is over."
+  <body class="font-sans antialiased w-full">
+    <div class="container mx-auto max-w-screen-xl">
+      <section>
+        <div class="w-full sm:max-w-sm p-8 bg-gradient-to-b from-indigo-300 via-green-300 to-white">
+          <img
+            class="
+              md:w-full md:rounded-none
+              rounded-full
+              mx-auto
+            "
+            src="img/Tonysoprano.jpg"
+            alt=""
+            width=""
+            height=""
+          />
+          <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+            <blockquote>
+              <p class="text-lg font-semibold">
+                "It's good to be in something from the ground floor. I came too
+                late for that and I know. But lately, I'm getting the feeling
+                that I came in at the end. The best is over."
+              </p>
+            </blockquote>
+            <figcaption class="font-medium">
+              <div class="text-cyan-600">Tony Soprano</div>
+              <div class="text-gray-500">
+                De facto Boss of the DiMeo crime family
+              </div>
+            </figcaption>
+          </div>
+        </div>
+
+        <!-- Work -->
+        <article class="row-fluid">
+          <header class="span3">
+            <h3>Work Experience</h3>
+          </header>
+          <div class="span9">
+            <h4>Waste Management</h4>
+            <h5>1960-2008</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diamvoluptua.
             </p>
-          </blockquote>
-          <figcaption class="font-medium">
-            <div class="text-cyan-600">Tony Soprano</div>
-            <div class="text-gray-500">
-              De facto Boss of the DiMeo crime family
-            </div>
-          </figcaption>
-        </div>
-      </figure>
+            <h4>Second Job</h4>
+            <h5>2008-2013</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diamvoluptua.
+            </p>
+          </div>
+        </article>
 
-      <!-- Work -->
-      <article class="row-fluid">
-        <header class="span3">
-          <h3>Work Experience</h3>
-        </header>
-        <div class="span9">
-          <h4>Waste Management</h4>
-          <h5>1960-2008</h5>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diamvoluptua.
-          </p>
-          <h4>Second Job</h4>
-          <h5>2008-2013</h5>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diamvoluptua.
-          </p>
-        </div>
-      </article>
+        <!-- Interests -->
+        <article class="row-fluid">
+          <header class="span3">
+            <h3>Interests</h3>
+          </header>
+          <div class="span9">
+            <h4>Traveling</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diamvoluptua
+            </p>
+            <h4>Reading</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diamvoluptua
+            </p>
+            <h4>Books</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diamvoluptua
+            </p>
+          </div>
+        </article>
 
-      <!-- Interests -->
-      <article class="row-fluid">
-        <header class="span3">
-          <h3>Interests</h3>
-        </header>
-        <div class="span9">
-          <h4>Traveling</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diamvoluptua
-          </p>
-          <h4>Reading</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diamvoluptua
-          </p>
-          <h4>Books</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diamvoluptua
-          </p>
-        </div>
-      </article>
-
-      <!-- Footer -->
-      <footer>&copy; 2013 Tony Soparno</footer>
-    </section>
-
+        <!-- Footer -->
+        <footer>&copy; 2013 Tony Soprano</footer>
+      </section>
+    </div>
     <div id="app"></div>
     <script type="module" src="js/main.js"></script>
   </body>
