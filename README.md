@@ -9,6 +9,9 @@
 - [github vitejs](https://github.com/vitejs/vite)
 - [github koajs](https://github.com/koajs/koa)
 
+- [StencilJS](https://github.com/ionic-team/stencil)
+- [LitElement](https://github.com/lit/lit/)
+
 cv-demo on  gh-pages is 📦 v0.0.0 via ⬢ v16.10.0
 
 ➜ npm run dev
