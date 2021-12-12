@@ -1,9 +1,8 @@
-# Learn Git while building a Github pages personal online Curriculum Vitae 
+# Learn Git while building a Github pages personal online Curriculum Vitae
 
 - [TailwindCSS](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML.
 - [Vite](https://vitejs.dev/) - Next Generation of Frontend Tooling
 - [Ionicons](https://ionic.io/ionicons) - Open source icons. Lovingly hand-crafted.
-
 
 - [how the heck does vite work/](https://harlanzw.com/blog/how-the-heck-does-vite-work/)
 - [github vitejs](https://github.com/vitejs/vite)
@@ -19,10 +18,9 @@ cv-demo on  gh-pages is 📦 v0.0.0 via ⬢ v16.10.0
 > vite-project@0.0.0 dev
 > vite
 
+vite v2.6.13 dev server running at:
 
-  vite v2.6.13 dev server running at:
+> Local: http://localhost:3000/
+> Network: use `--host` to expose
 
-  > Local: http://localhost:3000/
-  > Network: use `--host` to expose
-
-  ready in 177ms.
+ready in 177ms.
