@@ -2,101 +2,432 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Anthony "Tony" John Soprano, Sr - Curriculum Vitae</title>
+    <title>Anthony "Tony" John Soprano, Sr | CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <meta name="author" content="" />
 
     <link href="css/tailwind.min.css" rel="stylesheet" />
-  </head>
 
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+  </head>
   <body class="font-sans antialiased w-full">
     <div class="container mx-auto max-w-screen-xl">
-      <section>
-        <div class="w-full sm:max-w-sm p-8 bg-gradient-to-b from-indigo-300 via-green-300 to-white">
-          <img
-            class="
-              md:w-full md:rounded-none
-              rounded-full
-              mx-auto
-            "
-            src="img/Tonysoprano.jpg"
-            alt=""
-            width=""
-            height=""
-          />
-          <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+      <main
+        id="wrapper"
+        class="flex flex-col sm:flex-row-reverse sm:m-12 shadow-2xl"
+      >
+        <div
+          id="sidebar"
+          class="
+            w-full
+            sm:max-w-sm
+            p-8
+            bg-gradient-to-b
+            from-indigo-300
+            via-amber-300
+            to-white
+          "
+        >
+          <div class="px-2 mb-12">
+            <img
+              src="./assets/img/Tony-Soprano.jpg"
+              alt="Profile Picture"
+              class="rounded-full w-48 mx-auto mb-2"
+            />
+            <h1 class="text-center text-3xl font-semibold mb-2">
+              Tony Soprano
+            </h1>
+            <h2 class="text-center text-xl font-light">
+              De facto Boss of the DiMeo crime family
+            </h2>
+          </div>
+
+          <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">Contact</h2>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/icons/mail-outline.svg"
+                class="inline w-6 mr-4"
+                alt="Mail icon"
+              />
+              <a href="mailto:">AnthonyJ_Soprano@gmail.com</a>
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/icons/call-outline.svg"
+                class="inline w-6 mr-4"
+                alt="Phone icon"
+              />
+              <a href="tel:">0123 456 789</a>
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/icons/home-outline.svg"
+                class="inline w-6 pb-1 mr-4"
+                alt="House icon"
+              />
+              <div>
+                <p>Sopranos residence,</p>
+                <p>North Caldwell,</p>
+                <p>New Jersey</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">Personal</h2>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/icons/egg-outline.svg"
+                class="inline w-6 mr-4"
+                alt="Egg Icon"
+              />
+              <span>Born on August 22, 1959</span>
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/icons/people-outline.svg"
+                class="inline w-6 mr-4"
+                alt="Two Persons Icon"
+              />
+              <span
+                >Married, two kids Meadow Soprano (daughter) Anthony Soprano,
+                Jr. (son)</span
+              >
+            </div>
+          </div>
+
+          <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">On the Web</h2>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/icons/logo-github.svg"
+                class="inline w-6 mr-4"
+                alt="GitHub Logo"
+              />
+              <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/icons/logo-stackoverflow.svg"
+                class="inline w-6 mr-4"
+                alt="Stack Overflow Logo"
+              />
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >StackOverflow</a
+              >
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/icons/logo-linkedin.svg"
+                class="inline w-6 mr-4"
+                alt="LinkedIn Logo"
+              />
+              <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/icons/logo-twitter.svg"
+                class="inline w-6 mr-4"
+                alt="Twitter Logo"
+              />
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >@twitter_handle</a
+              >
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/icons/logo-codepen.svg"
+                class="inline w-6 mr-4"
+                alt="CodePen Logo"
+              />
+              <a href="#" target="_blank" rel="noopener noreferrer">CodePen</a>
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/icons/globe-outline.svg"
+                class="inline w-6 mr-4"
+                alt="Globe icon"
+              />
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Portfolio</a
+              >
+            </div>
+          </div>
+
+          <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">Education</h2>
+            <h3 class="font-semibold">The Mafia</h3>
+            <p>Soldier (1982-1986)</p>
+            <p>Captain (1986-1999)</p>
+            <p>De facto Boss (1999-2006)</p>
+            <p>Boss (2006-present)</p>
+          </div>
+
+          <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">Languages</h2>
+            <h3 class="font-semibold">American</h3>
+            <p>Fluent</p>
+            <h3 class="font-semibold">Italian</h3>
+            <p>Native</p>
+          </div>
+        </div>
+        <div class="content w-full p-12">
+          <div id="profile" class="prose">
+            <h2 class="section-headline">Profile</h2>
             <blockquote>
               <p class="text-lg font-semibold">
                 "It's good to be in something from the ground floor. I came too
                 late for that and I know. But lately, I'm getting the feeling
-                that I came in at the end. The best is over."
+                that I came in at the end. The best is over." Dante[src] Anthony
+                "Tony" John Soprano (born August 22, 1959), also known as Tony
+                Soprano, is the De facto Boss of the DiMeo crime family.
+              </p>
+
+              <p class="text-lg font-semibold">
+                "All due respect. You got no fucking idea what it's like to be
+                number one. Every decision you make affects every facet of every
+                other fucking thing. It's too much to deal with almost. And in
+                the end, you're completely alone with it all." ―Tony to Silvio
               </p>
             </blockquote>
-            <figcaption class="font-medium">
-              <div class="text-cyan-600">Tony Soprano</div>
-              <div class="text-gray-500">
-                De facto Boss of the DiMeo crime family
-              </div>
-            </figcaption>
+          </div>
+          <hr class="mt-8 mb-12" />
+          <div id="experience" class="prose">
+            <h2 class="section-headline">Experience</h2>
+            <div>
+              <h3>Example Inc</h3>
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Jul.&nbsp;2019:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  De facto Boss of the DiMeo crime family
+                </div>
+              </section>
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Task:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </section>
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Description:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+                </div>
+              </section>
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Tools:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <span class="rounded-xl bg-gray-300 px-3">Vue</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Vuex</span>
+                  <span class="rounded-xl bg-gray-300 px-3">VanillaJS</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Bootstrap</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Docker</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Git</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Jira</span>
+                </div>
+              </section>
+            </div>
+          </div>
+          <hr class="mt-8 mb-12" />
+          <div id="projects" class="prose">
+            <h2 class="section-headline">Projects</h2>
+            <div class="mb-16">
+              <h3 id="chrisko-headline">Chrisko.io</h3>
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Personal blog:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  My blog is the center of my online presence. Here, I share
+                  posts about what I've learnt, tutorials and my thoughts on web
+                  development in general.
+                </div>
+              </section>
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Deployed to:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <a
+                    href="https://www.thewhitefox.ninja"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >theWhiteFox.ninja</a
+                  >
+                </div>
+              </section>
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Code on:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <a
+                    href="https://github.com/theWhiteFox"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub/theWhiteFox</a
+                  >
+                </div>
+              </section>
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Features:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <ul>
+                    <li>Static generation</li>
+                    <li>Blog content written in Markdown</li>
+                    <li>Counter for pageviews and likes</li>
+                    <li>My latest tweets</li>
+                    <li>Featured images made with Inkscape</li>
+                    <li>SEO</li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Built with:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <span class="rounded-xl bg-gray-300 px-3">React.js</span>
+                  <span class="rounded-xl bg-gray-300 px-3"
+                    >Styled Components</span
+                  >
+                  <span class="rounded-xl bg-gray-300 px-3">styled-jsx</span>
+                  <span class="rounded-xl bg-gray-300 px-3">GraphQL</span>
+                </div>
+              </section>
+            </div>
+          </div>
+          <hr class="mt-8 mb-12" />
+          <div id="projects" class="prose">
+            <h2 class="section-headline">Expand my skills</h2>
+            <div class="mb-16">
+              <h4 id="expand-knowledge-headline">
+                I'd like to expand my skills and knowledge in several fields
+              </h4>
+              <ul>
+                <li>TypeScript</li>
+                <li>Testing, e.g. with Mocha, Chai, Jest</li>
+                <li>Web Components, e.g. with StencilJS, LitElement</li>
+                <li>Prototyping and Wireframing, e.g. with Figma, Adobe XD</li>
+                <li>Scalable Vector Graphics</li>
+                <li>Databases</li>
+                <li>Mobile development</li>
+                <li>
+                  Backend development, e.g. learn additional language like Go,
+                  Python, PHP, Ruby, Java, Rust
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-
-        <!-- Work -->
-        <article class="row-fluid">
-          <header class="span3">
-            <h3>Work Experience</h3>
-          </header>
-          <div class="span9">
-            <h4>Waste Management</h4>
-            <h5>1960-2008</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diamvoluptua.
-            </p>
-            <h4>Second Job</h4>
-            <h5>2008-2013</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diamvoluptua.
-            </p>
-          </div>
-        </article>
-
-        <!-- Interests -->
-        <article class="row-fluid">
-          <header class="span3">
-            <h3>Interests</h3>
-          </header>
-          <div class="span9">
-            <h4>Traveling</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diamvoluptua
-            </p>
-            <h4>Reading</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diamvoluptua
-            </p>
-            <h4>Books</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diamvoluptua
-            </p>
-          </div>
-        </article>
-
-        <!-- Footer -->
-        <footer>&copy; 2013 Tony Soprano</footer>
-      </section>
+      </main>
     </div>
-    <div id="app"></div>
-    <script type="module" src="js/main.js"></script>
+    <footer
+      class="mt-12 text-center flex justify-center flex-col md:flex-row mx-12"
+    >
+      <a
+        href="https://theWhiteFox.ninja"
+        class="
+          text-sm
+          px-4
+          py-2
+          m-2
+          text-gray-600
+          border-gray-400 border-2
+          rounded
+          flex-shrink-0
+        "
+        >theWhiteFox</a
+      >
+      <a
+        href="https://tailwindcss.com/"
+        class="
+          text-sm
+          px-4
+          py-2
+          m-2
+          text-gray-600
+          border-gray-400 border-2
+          rounded
+          flex-shrink-0
+        "
+        >TailwindCSS</a
+      >
+      <a
+        href="https://vitejs.dev/"
+        class="
+          text-sm
+          px-4
+          py-2
+          m-2
+          text-gray-600
+          border-gray-400 border-2
+          rounded
+          flex-shrink-0
+        "
+        >Vite</a
+      >
+      <a
+        href="https://github.com/L33T-KR3W/push-dir"
+        class="
+          text-sm
+          px-4
+          py-2
+          m-2
+          text-gray-600
+          border-gray-400 border-2
+          rounded
+          flex-shrink-0
+        "
+        >Push Dir</a
+      >
+      <a
+        href="https://ionicons.com/"
+        class="
+          text-sm
+          px-4
+          py-2
+          m-2
+          text-gray-600
+          border-gray-400 border-2
+          rounded
+          flex-shrink-0
+        "
+        >Ionicons</a
+      >
+      <a
+        href="https://sopranos.fandom.com/wiki/Tony_Soprano"
+        class="
+          text-sm
+          px-4
+          py-2
+          m-2
+          text-gray-600
+          border-gray-400 border-2
+          rounded
+          flex-shrink-0
+        "
+        >Fandom wiki Tony Soprano</a
+      >
+    </footer>
   </body>
 </html>
