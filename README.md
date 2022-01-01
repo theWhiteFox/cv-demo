@@ -1,6 +1,6 @@
 # Tony Soprano Curriculum Vitae
 
-[thewhitefox.ninja T CV](https://www.thewhitefox.ninja/2021/2021-12-12-cv/)
+[thewhitefox.ninja T CV](https://www.thewhitefox.ninja/2021/2021-12-19-CV/)
 
 - [TailwindCSS](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML.
 - [Vite](https://vitejs.dev/) - Next Generation of Frontend Tooling
