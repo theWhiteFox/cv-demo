@@ -1,4 +1,4 @@
-# Learn Git while building a Github pages personal online Curriculum Vitae
+# Tony Soprano Curriculum Vitae
 
 [thewhitefox.ninja T CV](https://www.thewhitefox.ninja/2021/2021-12-12-cv/)
 
